@@ -1,10 +1,10 @@
-This is the book file.
+이 파일은 책 파일입니다.
 
-This file format works similar to the info.txt, motd.txt and rules.txt
+파일 형식은 info.txt, motd.txt, rules.txt와 비슷하게 구성되어 있습니다.
 
-Place content in here that you would like to be used by books ingame.
+게임 내에서 사용될 책의 내용을 이곳에 적어주세요.
 
-You can use this content by using the book:<section> meta option in kits or item spawning.
+이 내용물은 book:<section> 메타 옵션으로 키트나 아이템 소환에서 사용할 수 있습니다.
 
 #Colors
 Minecraft colors:

@@ -1,4 +1,4 @@
-&6Welcome, {PLAYER}&6!
-&6Type &c/help&6 for a list of commands.
-&6Type &c/list&6 to see who else is online.
-&6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}
+&6환영합니다, {PLAYER}&6!
+&c/help&6 를 입력해 명령어 목록을 볼 수 있습니다.
+&c/list&6 를 입력해 접속중인 유저를 확인할 수 있습니다.
+&6접속중인 플레이어:&c {ONLINE} &6- 월드 시간:&c {WORLDTIME12}

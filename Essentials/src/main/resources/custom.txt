@@ -1,33 +1,33 @@
 #Customtext
-&6This is the custom text commands file.
+&6이 파일은 사용자 지정 명령어 파일입니다.
 
-&6This file allows you to define custom text commands.
+&6이 파일은 사용자 지정 명령어를 정의할 수 있게 합니다.
 
-&6You can create a specific file for a user or a group:
-&6Name it custom_username.txt or custom_groupname.txt
+&특정 유저나 그룹의 파일을 만들 수도 있습니다:
+&6이름을 custom_username.txt 또는 custom_groupname.txt 로 설정하세요.
 
-&6You can use multiple pages, for example type:
+&6여러 페이지를 사용할 수도 있습니다, 예를 들어:
 &c/customtext 2
 
-&6To add a custom command you need to do three things:
-&e-&9 Add a section below in the custom.txt
-&e-&9 Add a line to the commands.yml aliases section
-&e-&9 Give players access to 'essentials.customtext'
+&6사용자 지정 명령어를 추가하려면 3가지가 필요합니다:
+&e-&9 custom.txt 하단에 섹션을 추가
+&e-&9 commands.yml 별칭 섹션에 commands.yml 줄을 추가
+&e-&9 플레이어에게 권한 'essentials.customtext' 을 지급
 
-To add /vote, add this to commands.yml:
+/vote 를 추가하려면, commands.yml에 이걸 추가하세요:
   vote: 
   - customtext vote $1-
 
-&6The following commands can also be customized:
+&6다음 명령어들도 수정할 수 있습니다:
 &c/rules /motd /news /help
 
-&6These support chapter customization such as:&c /rules grief
-&6You can use custom aliases with these commands too.
+&c/rules grief &6와 같은 지원 챕터도 수정할 수 있습니다.
+&6또한 이 명령어들도 사용자 지정 별칭을 사용할 수 있습니다.
 
 #vote
-If you add the correct alias to commands.yml
-This text here will be shown if you type /vote
+commands.yml 에 올바른 별칭을 추가할 경우
+/vote 를 입력하면 여기에 이 텍스트가 표시됩니다.
 
 #stafflist,onlinestaff
-&6Online Staff:
+&6접속중인 스태프:
 {PLAYERLIST:MODERATOR} {PLAYERLIST:ADMIN} {PLAYERLIST:OWNER}
